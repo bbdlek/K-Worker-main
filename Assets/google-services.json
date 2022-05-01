@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "625446872031",
+    "project_id": "k-worker",
+    "storage_bucket": "k-worker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625446872031:android:7d1a3cc0a476ed7278da6a",
+        "android_client_info": {
+          "package_name": "com.EvenITeam2.K_Worker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625446872031-qjqiq4ms32p3f34ljhdrdchrqlo04hij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8CKcjk8P-8MEMI3-O6sgIEfISZTLkbqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625446872031-qjqiq4ms32p3f34ljhdrdchrqlo04hij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

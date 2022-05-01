@@ -1,0 +1,1431 @@
+fileFormatVersion: 2
+guid: 3b59a341639855442bb703699aff1f40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: CTS_Prototype_001_UNITY_0
+  - first:
+      213: 21300002
+    second: CTS_Prototype_001_UNITY_1
+  - first:
+      213: 21300004
+    second: CTS_Prototype_001_UNITY_2
+  - first:
+      213: 21300006
+    second: CTS_Prototype_001_UNITY_3
+  - first:
+      213: 21300008
+    second: CTS_Prototype_001_UNITY_4
+  - first:
+      213: 21300010
+    second: CTS_Prototype_001_UNITY_5
+  - first:
+      213: 21300012
+    second: CTS_Prototype_001_UNITY_6
+  - first:
+      213: 21300014
+    second: CTS_Prototype_001_UNITY_7
+  - first:
+      213: 21300016
+    second: CTS_Prototype_001_UNITY_8
+  - first:
+      213: 21300018
+    second: CTS_Prototype_001_UNITY_9
+  - first:
+      213: 21300020
+    second: CTS_Prototype_001_UNITY_10
+  - first:
+      213: 21300022
+    second: CTS_Prototype_001_UNITY_11
+  - first:
+      213: 21300024
+    second: CTS_Prototype_001_UNITY_12
+  - first:
+      213: 21300026
+    second: CTS_Prototype_001_UNITY_13
+  - first:
+      213: 21300028
+    second: CTS_Prototype_001_UNITY_14
+  - first:
+      213: 21300030
+    second: CTS_Prototype_001_UNITY_15
+  - first:
+      213: 21300032
+    second: CTS_Prototype_001_UNITY_16
+  - first:
+      213: 21300034
+    second: CTS_Prototype_001_UNITY_17
+  - first:
+      213: 21300036
+    second: CTS_Prototype_001_UNITY_18
+  - first:
+      213: 21300038
+    second: CTS_Prototype_001_UNITY_19
+  - first:
+      213: 21300040
+    second: CTS_Prototype_001_UNITY_20
+  - first:
+      213: 21300042
+    second: CTS_Prototype_001_UNITY_21
+  - first:
+      213: 21300044
+    second: CTS_Prototype_001_UNITY_22
+  - first:
+      213: 21300046
+    second: CTS_Prototype_001_UNITY_23
+  - first:
+      213: 21300048
+    second: CTS_Prototype_001_UNITY_24
+  - first:
+      213: 21300050
+    second: CTS_Prototype_001_UNITY_25
+  - first:
+      213: 21300052
+    second: CTS_Prototype_001_UNITY_26
+  - first:
+      213: 21300054
+    second: CTS_Prototype_001_UNITY_27
+  - first:
+      213: 21300056
+    second: CTS_Prototype_001_UNITY_28
+  - first:
+      213: 21300058
+    second: CTS_Prototype_001_UNITY_29
+  - first:
+      213: 21300060
+    second: CTS_Prototype_001_UNITY_30
+  - first:
+      213: 21300062
+    second: CTS_Prototype_001_UNITY_31
+  - first:
+      213: 21300064
+    second: CTS_Prototype_001_UNITY_32
+  - first:
+      213: 21300066
+    second: CTS_Prototype_001_UNITY_33
+  - first:
+      213: 21300068
+    second: CTS_Prototype_001_UNITY_34
+  - first:
+      213: 21300070
+    second: CTS_Prototype_001_UNITY_35
+  - first:
+      213: 21300072
+    second: CTS_Prototype_001_UNITY_36
+  - first:
+      213: 21300074
+    second: CTS_Prototype_001_UNITY_37
+  - first:
+      213: 21300076
+    second: CTS_Prototype_001_UNITY_38
+  - first:
+      213: 21300078
+    second: CTS_Prototype_001_UNITY_39
+  - first:
+      213: 21300080
+    second: CTS_Prototype_001_UNITY_40
+  - first:
+      213: 21300082
+    second: CTS_Prototype_001_UNITY_41
+  - first:
+      213: 21300084
+    second: CTS_Prototype_001_UNITY_42
+  - first:
+      213: 21300086
+    second: CTS_Prototype_001_UNITY_43
+  - first:
+      213: 21300088
+    second: CTS_Prototype_001_UNITY_44
+  - first:
+      213: 21300090
+    second: CTS_Prototype_001_UNITY_45
+  - first:
+      213: 21300092
+    second: CTS_Prototype_001_UNITY_46
+  - first:
+      213: 21300094
+    second: CTS_Prototype_001_UNITY_47
+  - first:
+      213: 21300096
+    second: CTS_Prototype_001_UNITY_48
+  - first:
+      213: -1067995132225950847
+    second: CTS_Prototype_001_UNITY_0
+  - first:
+      213: 3650952337024450546
+    second: CTS_Prototype_001_UNITY_1
+  - first:
+      213: 7511676624281084876
+    second: CTS_Prototype_001_UNITY_2
+  - first:
+      213: 5540376785383324544
+    second: CTS_Prototype_001_UNITY_3
+  - first:
+      213: 1113216137732304557
+    second: CTS_Prototype_001_UNITY_4
+  - first:
+      213: -4911733019739209152
+    second: CTS_Prototype_001_UNITY_5
+  - first:
+      213: 8231957083526107366
+    second: CTS_Prototype_001_UNITY_6
+  - first:
+      213: 2572134189222583811
+    second: CTS_Prototype_001_UNITY_7
+  - first:
+      213: 4127752487821384116
+    second: CTS_Prototype_001_UNITY_8
+  - first:
+      213: 5211836442246353056
+    second: CTS_Prototype_001_UNITY_9
+  - first:
+      213: -4161573988664633546
+    second: CTS_Prototype_001_UNITY_10
+  - first:
+      213: -8917544843010201985
+    second: CTS_Prototype_001_UNITY_11
+  - first:
+      213: 4624278810170547730
+    second: CTS_Prototype_001_UNITY_12
+  - first:
+      213: -507131784056147466
+    second: CTS_Prototype_001_UNITY_13
+  - first:
+      213: 6372068140903981155
+    second: CTS_Prototype_001_UNITY_14
+  - first:
+      213: 6730692516670708264
+    second: CTS_Prototype_001_UNITY_15
+  - first:
+      213: 858816400868277080
+    second: CTS_Prototype_001_UNITY_16
+  - first:
+      213: -3690396850169485736
+    second: CTS_Prototype_001_UNITY_17
+  - first:
+      213: -77843995913929652
+    second: CTS_Prototype_001_UNITY_18
+  - first:
+      213: -2776866840804894890
+    second: CTS_Prototype_001_UNITY_19
+  - first:
+      213: -4757343919250725075
+    second: CTS_Prototype_001_UNITY_20
+  - first:
+      213: 605584299311495528
+    second: CTS_Prototype_001_UNITY_21
+  - first:
+      213: 2327454936178366245
+    second: CTS_Prototype_001_UNITY_22
+  - first:
+      213: -761724306006872518
+    second: CTS_Prototype_001_UNITY_23
+  - first:
+      213: 2117034096649342543
+    second: CTS_Prototype_001_UNITY_24
+  - first:
+      213: -3842788960793183795
+    second: CTS_Prototype_001_UNITY_25
+  - first:
+      213: 1412647449820289499
+    second: CTS_Prototype_001_UNITY_26
+  - first:
+      213: 3587744348016480596
+    second: CTS_Prototype_001_UNITY_27
+  - first:
+      213: -3693789136332094148
+    second: CTS_Prototype_001_UNITY_28
+  - first:
+      213: -6407176341317995512
+    second: CTS_Prototype_001_UNITY_29
+  - first:
+      213: -4722927784805603257
+    second: CTS_Prototype_001_UNITY_30
+  - first:
+      213: -4404802042741169796
+    second: CTS_Prototype_001_UNITY_31
+  - first:
+      213: 1055399112950027357
+    second: CTS_Prototype_001_UNITY_32
+  - first:
+      213: 475746851184250584
+    second: CTS_Prototype_001_UNITY_33
+  - first:
+      213: -1779579252709757738
+    second: CTS_Prototype_001_UNITY_34
+  - first:
+      213: 9083855837667981271
+    second: CTS_Prototype_001_UNITY_35
+  - first:
+      213: 1811321170794678667
+    second: CTS_Prototype_001_UNITY_36
+  - first:
+      213: -988289853046273039
+    second: CTS_Prototype_001_UNITY_37
+  - first:
+      213: -2041750859338307004
+    second: CTS_Prototype_001_UNITY_38
+  - first:
+      213: -4894051495590746066
+    second: CTS_Prototype_001_UNITY_39
+  - first:
+      213: 6474206795697348528
+    second: CTS_Prototype_001_UNITY_40
+  - first:
+      213: 3793534463353206697
+    second: CTS_Prototype_001_UNITY_41
+  - first:
+      213: -5985607599300199704
+    second: CTS_Prototype_001_UNITY_42
+  - first:
+      213: -7813967533981348227
+    second: CTS_Prototype_001_UNITY_43
+  - first:
+      213: 7569665450171018494
+    second: CTS_Prototype_001_UNITY_44
+  - first:
+      213: 1725418872560159034
+    second: CTS_Prototype_001_UNITY_45
+  - first:
+      213: -7351789340032441258
+    second: CTS_Prototype_001_UNITY_46
+  - first:
+      213: 6120343858849297647
+    second: CTS_Prototype_001_UNITY_47
+  - first:
+      213: -8615437284099757217
+    second: CTS_Prototype_001_UNITY_48
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b63d1f518bd21f0800000000000000
+      internalID: -1067995132225950847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff79349ec9caa230800000000000000
+      internalID: 3650952337024450546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc321e95716de3860800000000000000
+      internalID: 7511676624281084876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bf796055f53ec40800000000000000
+      internalID: 5540376785383324544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae24cfdd20f27f00800000000000000
+      internalID: 1113216137732304557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04243ee87d406dbb0800000000000000
+      internalID: -4911733019739209152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e095d94a59cd3270800000000000000
+      internalID: 8231957083526107366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30edf37da6e02b320800000000000000
+      internalID: 2572134189222583811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b914559409b84930800000000000000
+      internalID: 4127752487821384116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0978771a9245840800000000000000
+      internalID: 5211836442246353056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637932b918e1f36c0800000000000000
+      internalID: -4161573988664633546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76a2c366348e3480800000000000000
+      internalID: -8917544843010201985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ed49ec31dbc2040800000000000000
+      internalID: 4624278810170547730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1f50d445e46f8f0800000000000000
+      internalID: -507131784056147466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3606a27a6322e6850800000000000000
+      internalID: 6372068140903981155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a9984ee29386d50800000000000000
+      internalID: 6730692516670708264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b780567f02beb00800000000000000
+      internalID: 858816400868277080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8566d690e9319ccc0800000000000000
+      internalID: -3690396850169485736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c37a35c417beef0800000000000000
+      internalID: -77843995913929652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657534d12569679d0800000000000000
+      internalID: -2776866840804894890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2722b239e48afdb0800000000000000
+      internalID: -4757343919250725075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869f30236b7776800800000000000000
+      internalID: 605584299311495528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52714addee7cc4020800000000000000
+      internalID: 2327454936178366245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eedab87cfcd65f0800000000000000
+      internalID: -761724306006872518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e8c2c5b47316d10800000000000000
+      internalID: 2117034096649342543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc93125dccbabaac0800000000000000
+      internalID: -3842788960793183795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9566ffe5bba9310800000000000000
+      internalID: 1412647449820289499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4511070d97a3ac130800000000000000
+      internalID: 3587744348016480596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c358abdd9560dbcc0800000000000000
+      internalID: -3693789136332094148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_29
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804347270132517a0800000000000000
+      internalID: -6407176341317995512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748e6dee33ac47eb0800000000000000
+      internalID: -4722927784805603257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c716f7831effed2c0800000000000000
+      internalID: -4404802042741169796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5416a7c6e785ae00800000000000000
+      internalID: 1055399112950027357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de09d39d313a9600800000000000000
+      internalID: 475746851184250584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc6498291aad47e0800000000000000
+      internalID: -1779579252709757738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7fe0b81c6501e70800000000000000
+      internalID: 9083855837667981271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b898c5f020b132910800000000000000
+      internalID: 1811321170794678667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbcd066d93e842f0800000000000000
+      internalID: -988289853046273039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44aaa4d396e3aa3e0800000000000000
+      internalID: -2041750859338307004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2828d43816d41cb0800000000000000
+      internalID: -4894051495590746066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfd5f367c009d950800000000000000
+      internalID: 6474206795697348528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7be53de7755a430800000000000000
+      internalID: 3793534463353206697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea35def999deeca0800000000000000
+      internalID: -5985607599300199704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_43
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e4b929de53f8390800000000000000
+      internalID: -7813967533981348227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_44
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcadf10f9adc0960800000000000000
+      internalID: 7569665450171018494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_45
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3904bba25be1f710800000000000000
+      internalID: 1725418872560159034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654ecd3fb8239f990800000000000000
+      internalID: -7351789340032441258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4b4f90054dfe450800000000000000
+      internalID: 6120343858849297647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CTS_Prototype_001_UNITY_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5be398cf61df6880800000000000000
+      internalID: -8615437284099757217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d7434421d585ac34e955f57a29066f98
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
