@@ -185,7 +185,7 @@ public class Player : MonoBehaviour
     {
         hp -= Damge;
 
-        if(hp < 0)
+        if(hp <= 0)
         {
             UIManager.instance.endPanel.SetActive(true);
             //AdMobManager.instance.ShowRewardAds();

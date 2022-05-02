@@ -30,6 +30,9 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject pausePanel;
     public GameObject endPanel;
     public GameObject noAdsPanel;
+    public GameObject volumePanel;
+    public Slider musicSlider;
+    public Slider sfxSlider;
 
     private void Awake()
     {
@@ -38,6 +41,13 @@ public class UIManager : MonoBehaviour
         else if (instance != this) Destroy(gameObject);
         
         DontDestroyOnLoad(gameObject);*/
+    }
+
+    private void Start()
+    {
+        musicSlider.onValueChanged.AddListener(AudioSupport.instance.MusicControl);
+        sfxSlider.onValueChanged.AddListener(AudioSupport.instance.SFXcontrol);
+        LoadSound();
     }
 
     void Update()
@@ -59,12 +69,13 @@ public class UIManager : MonoBehaviour
 
     public void OptionBtn()
     {
-        //옵션창 띄우기
+        if(!volumePanel.activeInHierarchy) volumePanel.SetActive(true);
+        pausePanel.SetActive(!pausePanel.activeInHierarchy);
     }
 
     public void MainMenuBtn()
     {
-        //메인메뉴로
+        SceneManager.LoadScene("00.Title");
     }
 
     public void NoAdsBtn()
@@ -112,5 +123,20 @@ public class UIManager : MonoBehaviour
     
 
     #endregion
-    
+
+    #region VolumePanel
+
+    public void SaveVol()
+    {
+        AudioSupport.instance.SaveSound();
+    }
+
+    private void LoadSound()
+    {
+        musicSlider.value = DBManager.instance.musicVolume;
+        sfxSlider.value = DBManager.instance.sfxVolume;
+    }
+
+    #endregion
+
 }

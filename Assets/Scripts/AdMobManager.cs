@@ -12,7 +12,7 @@ public class AdMobManager : MonoBehaviour
     private RewardedAd ReviveAd;
     private InterstitialAd nextStageAd;
 
-    [SerializeField] private bool noAdsPurchased;
+    //[SerializeField] private bool noAdsPurchased;
 
     private void Awake()
     {
@@ -180,7 +180,7 @@ public class AdMobManager : MonoBehaviour
     public void HandleOnAdClosed(object sender, EventArgs args)
     {
         MonoBehaviour.print("HandleAdClosed event received");
-        SceneManager.LoadScene("02.Stage2");
+        SceneManager.LoadScene(SceneManager.sceneCount + 1);
     }
 
     public void ShowInterstitialAd()
@@ -197,7 +197,7 @@ public class AdMobManager : MonoBehaviour
 
     public void noAdsPurchase()
     {
-        IAPManager.instance.noAdsPurchased = true;
+        DBManager.instance.noAdsPurchased = true;
         PlayerPrefs.SetInt("NoAdsPurchased", 1);
     }
 

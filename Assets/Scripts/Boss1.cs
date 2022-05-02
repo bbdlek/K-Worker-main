@@ -189,7 +189,7 @@ public class Boss1 : Boss
         if(!invincibility)
         {
             base.Hurt(Damge);
-            if (hp < 0)
+            if (hp <= 0)
             {
                 animator.SetTrigger("Die");
                 isStop = true;
