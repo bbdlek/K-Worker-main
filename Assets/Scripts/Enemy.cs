@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class Enemy : MonoBehaviour
 {
@@ -20,6 +21,8 @@ public class Enemy : MonoBehaviour
     Rigidbody2D rigid2D;
     Animator animator;
 
+    [SerializeField] private bool isStage2;
+
     void Awake()
     {
         questManager = GameObject.Find("QuestManager").GetComponent<QuestManager>();
@@ -29,16 +32,16 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
     void Update()
     {
-        ////ев╫╨ф╝©К
+        ////О©╫в╫О©╫ф╝О©╫О©╫
         //if (Input.GetKeyDown(KeyCode.J))
         //    Hurt();d
 
-        if(!stop)
+        if (!stop)
         {
             ctime += Time.deltaTime;
 
@@ -55,29 +58,49 @@ public class Enemy : MonoBehaviour
     }
     void FixedUpdate()
     {
-        rigid2D.velocity = new Vector2(dir * moveSpeed, rigid2D.velocity.y);
+        if (hp > 0)
+        {
+            rigid2D.velocity = new Vector2(dir * moveSpeed, rigid2D.velocity.y);
+        }
+        else
+        {
+            if (isStage2) rigid2D.AddForce(new Vector2(1, 1), ForceMode2D.Impulse);
+        }
+
     }
 
     public void Hurt()
     {
+        hp -= 1;
         if (!stop)
         {
-            if (hp - 1 > 0)
+            if (hp > 0)
             {
-                hp -= 1;
                 animator.SetTrigger("IsHurt");
                 animator.SetBool("Hurting", true);
                 dir = 0;
                 ctime = 0;
             }
-
-            else if (hp - 1 <= 0)
+            else
             {
-                questManager.QuestNumber += 1;
-                questManager.ScoreSum += score;
-                stop = true;
-                Destroy(gameObject);
-                dir = 0;
+                if (isStage2)
+                {
+                    Sequence sequence = DOTween.Sequence();
+                    sequence.Append(transform.DORotate(new Vector3(0, 0, -90), 2f, RotateMode.Fast))
+                    .OnComplete(() =>
+                    {
+                        Destroy(gameObject);
+                    });
+                }
+                else
+                {
+                    questManager.QuestNumber += 1;
+                    questManager.ScoreSum += score;
+                    stop = true;
+                    Destroy(gameObject);
+                    dir = 0;
+                }
+
             }
         }
     }
@@ -90,9 +113,9 @@ public class Enemy : MonoBehaviour
             transform.localScale = new Vector3(_dir, transform.localScale.y, transform.localScale.z);
         }
 
-        else if (dir< 0)
+        else if (dir < 0)
         {
-            float _dir =  Mathf.Abs(transform.localScale.x);
+            float _dir = Mathf.Abs(transform.localScale.x);
             transform.localScale = new Vector3(_dir, transform.localScale.y, transform.localScale.z);
         }
     }
