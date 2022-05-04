@@ -52,6 +52,7 @@ public class CrushingObject : MonoBehaviour
             hp -= 1f;
             
             questManager.ScoreSum += score;
+            DBManager.instance.score += score;
 
             if (currentLevel < crushing_Condition.Length && hp <= crushing_Condition[currentLevel])
             {

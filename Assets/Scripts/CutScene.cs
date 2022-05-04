@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CutScene : MonoBehaviour, IPointerDownHandler
@@ -13,6 +14,11 @@ public class CutScene : MonoBehaviour, IPointerDownHandler
     GameObject[] texts;
 
     Image sourceImage;
+    
+    [SerializeField] private GameObject StartImg;
+
+    [SerializeField] private bool enableSceneChange;
+    [SerializeField] private int sceneNum;
 
     int Level = 0;
 
@@ -25,8 +31,10 @@ public class CutScene : MonoBehaviour, IPointerDownHandler
     {
         if(Level >= changeImage.Length)
         {
-            FindObjectOfType<Timer>().TimerStart();
+            if(StartImg != null)
+                StartImg.SetActive(true);
             gameObject.SetActive(false);
+            if (enableSceneChange) SceneManager.LoadScene(sceneNum);
         }
 
         else

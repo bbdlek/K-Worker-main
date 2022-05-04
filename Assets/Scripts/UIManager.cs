@@ -29,6 +29,7 @@ public class UIManager : MonoBehaviour
     public GameObject QuestUIObject;
     [SerializeField] private GameObject pausePanel;
     public GameObject endPanel;
+    public GameObject endPanel2;
     public GameObject noAdsPanel;
     public GameObject volumePanel;
     public Slider musicSlider;
@@ -52,7 +53,7 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
-        scoreNum.text = questManager.ScoreSum.ToString();
+        scoreNum.text = DBManager.instance.score.ToString();
         QuestObjectText.text = questManager.QuestNumber + " / " + questManager.ConditionsOfSuccess;
         hpBar[0].value = player.Hp / player.MaxHp;
         hpBar[1].value = boss.Hp / boss.MaxHp;
@@ -76,6 +77,8 @@ public class UIManager : MonoBehaviour
     public void MainMenuBtn()
     {
         SceneManager.LoadScene("00.Title");
+        DBManager.instance.score = 0;
+        DBManager.instance.tempScore = 0;
     }
 
     public void NoAdsBtn()
@@ -113,7 +116,9 @@ public class UIManager : MonoBehaviour
     {
         FindObjectOfType<Timer>().time = 60f;
         FindObjectOfType<Timer>().countEnded = false;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (DBManager.instance.hasChance) DBManager.instance.hasChance = false;
+        DBManager.instance.score = 0;
+        SceneManager.LoadScene("01.Stage1");
     }
 
     public void AdBtn()

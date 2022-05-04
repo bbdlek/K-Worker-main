@@ -48,7 +48,8 @@ public class Stage1Event : MonoBehaviour
     {
         if(!QuestFirst && questManager.QuestClear)
         {
-            player.GetComponent<TutorialUI>().OnUI();
+            //player.GetComponent<TutorialUI>().OnUI();
+            timer.timerStarted = false;
             QuestFirst = true;
             Line.SetActive(false);
         }
@@ -82,7 +83,9 @@ public class Stage1Event : MonoBehaviour
 
         if (timer.countEnded)
         {
-            //시간 끝
+            if (!DBManager.instance.hasChance)
+                UIManager.instance.endPanel.SetActive(true);
+            else UIManager.instance.endPanel2.SetActive(true);
         }
     }
 

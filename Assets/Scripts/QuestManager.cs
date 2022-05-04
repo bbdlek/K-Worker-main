@@ -13,7 +13,7 @@ public class QuestManager : MonoBehaviour
     [SerializeField]
     public int ConditionsOfSuccess = 12;
 
-    int questNum = 0;
+    public int questNum = 0;
     public int QuestNumber
     {
         get { return questNum; }
@@ -32,6 +32,7 @@ public class QuestManager : MonoBehaviour
     public bool QuestClear
     {
         get { return questClear; }
+        set { questClear = value; }
     }
 
     void Awake()

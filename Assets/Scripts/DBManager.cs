@@ -8,9 +8,14 @@ public class DBManager : MonoBehaviour
     public static DBManager instance;
 
     public bool noAdsPurchased;
+    public bool hasChance;
 
     public float musicVolume = 0;
     public float sfxVolume = 0;
+
+    public float score;
+    public float tempScore;
+    
     private void Awake()
     {
         if (instance == null) instance = this;

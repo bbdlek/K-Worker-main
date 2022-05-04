@@ -8,21 +8,33 @@ public class Timer : MonoBehaviour
 {
     [SerializeField] private Text timerTxt;
     public float time = 60f;
-    private float selectCountdown;
+    [SerializeField] private float selectCountdown = 60f;
     public bool countEnded;
+    public bool timerStarted;
+
+
+    private void Awake()
+    {
+        selectCountdown = time;
+        countEnded = false;
+    }
 
     public void TimerStart()
     {
         selectCountdown = time;
+        timerStarted = true;
     }
 
     private void Update()
     {
-        if (Mathf.Floor(selectCountdown) <= 0) countEnded = true;
-        else
+        if (timerStarted)
         {
-            selectCountdown -= Time.deltaTime;
-            timerTxt.text = Mathf.Floor(selectCountdown).ToString();
+            if (Mathf.Floor(selectCountdown) <= 0) countEnded = true;
+            else
+            {
+                selectCountdown -= Time.deltaTime;
+                timerTxt.text = Mathf.Floor(selectCountdown).ToString();
+            }    
         }
     }
 }

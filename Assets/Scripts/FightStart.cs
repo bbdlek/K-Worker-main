@@ -11,12 +11,12 @@ public class FightStart : MonoBehaviour
 
     public void TurnOff()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 
     IEnumerator Off()
     {
         yield return new WaitForSeconds(1.5f);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

@@ -5,8 +5,7 @@ using DG.Tweening;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField]
-    float hp = 3;
+    public float hp = 3;
     [SerializeField]
     float moveSpeed = 3f;
     [SerializeField]
@@ -21,7 +20,7 @@ public class Enemy : MonoBehaviour
     Rigidbody2D rigid2D;
     Animator animator;
 
-    [SerializeField] private bool isStage2;
+    public bool isStage2;
 
     void Awake()
     {
@@ -41,7 +40,12 @@ public class Enemy : MonoBehaviour
         //if (Input.GetKeyDown(KeyCode.J))
         //    Hurt();d
 
-        if (!stop)
+        if (isStage2)
+        {
+            dir = -1;
+            animator.SetInteger("IsWalk", dir);
+        }
+        if (!stop && !isStage2)
         {
             ctime += Time.deltaTime;
 
@@ -52,7 +56,7 @@ public class Enemy : MonoBehaviour
             }
 
             animator.SetInteger("IsWalk", dir);
-
+            
             ChageDir();
         }
     }
@@ -85,6 +89,7 @@ public class Enemy : MonoBehaviour
             {
                 if (isStage2)
                 {
+                    this.gameObject.layer = 7;
                     Sequence sequence = DOTween.Sequence();
                     sequence.Append(transform.DORotate(new Vector3(0, 0, -90), 2f, RotateMode.Fast))
                     .OnComplete(() =>

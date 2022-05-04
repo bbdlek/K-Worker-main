@@ -73,7 +73,10 @@ public class AdMobManager : MonoBehaviour
     public void HandleUserEarnedReward(object sender, Reward args)
     {
         Debug.Log("Earned");
-        FindObjectOfType<Player>().hp = FindObjectOfType<Player>().MaxHp;
+        //FindObjectOfType<Player>().hp = FindObjectOfType<Player>().MaxHp;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        DBManager.instance.score = DBManager.instance.tempScore;
+        DBManager.instance.hasChance = true;
     }
 
     private void InitRewardedAd()

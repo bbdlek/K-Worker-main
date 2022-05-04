@@ -91,6 +91,10 @@ public class Player : MonoBehaviour
     {
         if (collision.CompareTag("Door"))
         {
+            if (SceneManager.GetActiveScene().buildIndex == 2)
+            {
+                FindObjectOfType<QuestManager>().questNum += 1000;
+            } 
             inDoor = true;
             doorYes = collision;
         }
@@ -187,7 +191,9 @@ public class Player : MonoBehaviour
 
         if(hp <= 0)
         {
-            UIManager.instance.endPanel.SetActive(true);
+            if (!DBManager.instance.hasChance)
+                UIManager.instance.endPanel.SetActive(true);
+            else UIManager.instance.endPanel2.SetActive(true);
             //AdMobManager.instance.ShowRewardAds();
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
