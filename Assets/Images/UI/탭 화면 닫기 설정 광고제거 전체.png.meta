@@ -1,7 +1,13 @@
 fileFormatVersion: 2
-guid: f23d1bd5fd4772a47a54baaa02d9feaf
+guid: 36e2a9fe0a84d8c40bea377471159e07
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4929319433577112265
+    second: NoAdsBtnImage
+  - first:
+      213: 4484095364726530229
+    second: SettingBtn
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +47,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 512
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -101,7 +107,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NoAdsBtnImage
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 770
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c22bce78e5786440800000000000000
+      internalID: 4929319433577112265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SettingBtn
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 870
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b02089f9f4ba3e30800000000000000
+      internalID: 4484095364726530229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

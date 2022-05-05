@@ -34,6 +34,7 @@ public class UIManager : MonoBehaviour
     public GameObject volumePanel;
     public Slider musicSlider;
     public Slider sfxSlider;
+    public GameObject noAdsBtn;
 
     private void Awake()
     {
@@ -53,6 +54,7 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
+        if(DBManager.instance.noAdsPurchased) noAdsBtn.SetActive(false);
         scoreNum.text = DBManager.instance.score.ToString();
         QuestObjectText.text = questManager.QuestNumber + " / " + questManager.ConditionsOfSuccess;
         hpBar[0].value = player.Hp / player.MaxHp;
@@ -76,6 +78,7 @@ public class UIManager : MonoBehaviour
 
     public void MainMenuBtn()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("00.Title");
         DBManager.instance.score = 0;
         DBManager.instance.tempScore = 0;
