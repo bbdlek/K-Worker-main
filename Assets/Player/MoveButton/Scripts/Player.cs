@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -39,12 +40,14 @@ public class Player : MonoBehaviour
     Animator animator;
     Rigidbody2D rigid2D;
     AudioSource audioPlayer;
+    private Camera mainCam;
 
     void Awake()
     {
         rigid2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         audioPlayer = GetComponent<AudioSource>();
+        mainCam = Camera.main;
 
         MaxHp = hp;
     }
@@ -187,6 +190,7 @@ public class Player : MonoBehaviour
 
     public void Hurt(int Damge)
     {
+        mainCam.DOShakePosition(0.5f, 0.2f, 1, 50f, true);
         hp -= Damge;
 
         if(hp <= 0)

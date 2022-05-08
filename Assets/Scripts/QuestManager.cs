@@ -62,6 +62,7 @@ public class QuestManager : MonoBehaviour
         for(int i = 0; i< doors.Length; i++)
         {
             doorManager.OpenDoor(doors[i].DoorNum);
+            Debug.Log(doors[i].DoorOpen);
         }
         yield return null;
     }

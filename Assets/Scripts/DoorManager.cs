@@ -49,9 +49,9 @@ public class DoorManager : MonoBehaviour
             {
                 //SceneManager.LoadScene(Doors[index].NextScene);
                 //AdMobManager.instance.ShowRewardAds();
+                DBManager.instance.tempScore = DBManager.instance.score;
                 if(DBManager.instance.noAdsPurchased) SceneManager.LoadScene(SceneManager.sceneCount + 1);
                 else AdMobManager.instance.ShowInterstitialAd();
-                DBManager.instance.tempScore = DBManager.instance.score;
             }
 
             else

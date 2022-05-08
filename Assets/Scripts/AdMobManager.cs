@@ -183,15 +183,39 @@ public class AdMobManager : MonoBehaviour
     public void HandleOnAdClosed(object sender, EventArgs args)
     {
         MonoBehaviour.print("HandleAdClosed event received");
+        CreateAndLoadInterstitialAd();
         SceneManager.LoadScene(SceneManager.sceneCount + 1);
     }
 
     public void ShowInterstitialAd()
     {
+        Debug.Log("Hello");
         if (nextStageAd != null && nextStageAd.IsLoaded())
         {
             nextStageAd.Show();
         }
+    }
+    
+    public void CreateAndLoadInterstitialAd()
+    {
+#if UNITY_ANDROID
+        string adUnitId = "ca-app-pub-3940256099942544/1033173712";
+#elif UNITY_IPHONE
+        string adUnitId = "ca-app-pub-3940256099942544/4411468910";
+#else
+        string adUnitId = "unexpected_platform";
+#endif
+
+        this.nextStageAd = new InterstitialAd(adUnitId);
+
+        this.nextStageAd.OnAdLoaded += HandleOnAdLoaded;
+        this.nextStageAd.OnAdOpening += HandleOnAdOpening;
+        this.nextStageAd.OnAdClosed += HandleOnAdClosed;
+
+        // Create an empty ad request.
+        AdRequest request = new AdRequest.Builder().Build();
+        // Load the rewarded ad with the request.
+        this.nextStageAd.LoadAd(request);
     }
     
     #endregion
